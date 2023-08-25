@@ -1,0 +1,176 @@
+body{
+    margin:0px;
+}
+
+.fontstyles{
+    color:#ffffff;
+    text-shadow:0px 0px 2px black;
+    text-align:center;
+    margin-top:-300px;
+    
+   
+}
+#country{
+    font-size: 45px;
+    margin:20px auto 1px;
+}
+#city{
+    font-size: 20px;
+     margin:0px auto;
+}
+#background1{
+    background-image: url("/images/theimage.jpg");
+    background-size: cover;
+    
+    width:100%;
+    height: 450px;
+    
+    
+}
+
+#blackbackground{
+    background:linear-gradient(#303134 350px,white);
+    margin-top:200px;
+    height:350px;
+    
+    
+    
+}
+.info{
+   color:#ffffff; 
+    text-shadow:0px 0px 2px black;
+    padding:65px 60px 20px 20px
+    
+    
+}
+#capital{
+    font-size:17px;
+   
+   
+}
+#explore{
+    margin-left:10px;
+    font-size:15px;
+    
+}
+#image1{
+     background-image: url("/images/history.jpg");
+     background-size:cover;
+    height:400px;
+    width:220px;
+    background-position: center center;
+    border:1px solid white;
+    
+    
+   
+    
+}
+
+#image2{
+     background-image: url("/images/culture.jpg");
+     background-size:cover;
+    height:400px;
+    width:220px;
+    background-position: center center;
+    border:1px solid white;
+    
+    
+   
+    
+}
+
+#image3{
+     background-image: url("/images/food.jpg");
+     background-size:cover;
+    height:400px;
+    width:220px;
+    background-position: center center;
+    border:1px solid white;
+    
+}
+
+
+.imagess{
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content:space-between;    
+    position:absolute;
+    bottom: 0px; /* Position at the bottom of #blackbackground */
+    left:300px; /* Align with the left side */
+    right: 0px; /* Align with the right side */
+    
+    
+    
+    
+}
+#image1:hover,
+#image2:hover,
+#image3:hover {
+    background: linear-gradient(#1f1d1d 23%, #bf4646 50%, #1d380f 85%);
+    color: #ffffff;
+    text-shadow: 0px 0px 2px black;
+}
+
+.image-container {
+    position: relative;
+    background-size: cover;
+    height: 400px;
+    width: 220px;
+    background-position: center center;
+}
+.hover-text {
+    display:none;
+    position: absolute;
+    top: 24%; /* Position text vertically in the middle */
+    left: 50%; /* Position text horizontally in the middle */
+    transform: translate(-50%, -50%); /* Center text */
+    color:#ffffff;
+    text-shadow:0px 0px 2px black;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+#histories{
+     margin-top: 17%;
+}
+.image-container:hover .hover-text {
+    display: block; /* Show text on hover */
+}
+.textbeforehover{
+    position: absolute;
+    top: 10%; /* Position text vertically in the middle */
+    left: 50%; /* Position text horizontally in the middle */
+    transform: translate(-50%, -50%); /* Center text */
+    color:#ffffff;
+    text-shadow:0px 0px 2px black;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+
+.fontstyless{
+    position: absolute;
+    top: 10%; /* Position text vertically in the middle */
+    left: 50%; /* Position text horizontally in the middle */
+    transform: translate(-50%, -50%); /* Center text */
+    color:#ffffff;
+    text-shadow:0px 0px 2px black;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+#list1,#list2,#list3{ 
+   list-style: none; /* Remove default list bullets */
+    padding: 0; /* Remove default padding */
+    margin: 0
+}
+#list1 li, #list2 li, #list3 li {
+    padding: 5px 0; /* Add spacing between list items */
+}
+.hover-text h3 {
+    border-bottom: 2px solid white; /* Add an underline to the h3 text */
+    display: inline-block; /* Keep the border within the width of the text */
+    padding-bottom: 5px; /* Adjust the spacing below the underline */
+    margin-bottom: 10px; /* Add some space between the title and the list */
+}
